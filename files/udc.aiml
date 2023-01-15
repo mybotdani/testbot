@@ -1,11 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<aiml>
-  <category>
-    <pattern>How much are your meal plans</pattern>
-    <template>Pricing depends on the type of plan needed</template>
-  </category>
-<category>
-    <pattern></pattern>
-    <template></template>
-</category>
+<aiml version="2.0">
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Hello, welcome to our health food company! How can I help you today?
+        </template>
+    </category>
+
+    <category>
+        <pattern>I WOULD LIKE TO ORDER A MEAL PLAN</pattern>
+        <template>
+            Great, we have a variety of meal plans available to suit different dietary needs and preferences. Which type of meal plan are you interested in?
+        </template>
+    </category>
+
+    <category>
+        <pattern>I WOULD LIKE TO MODIFY MY ORDER</pattern>
+        <template>
+            No problem, we're happy to make changes to your order. What would you like to change?
+        </template>
+    </category>
+
+    <category>
+        <pattern>I WOULD LIKE TO REQUEST DELIVERY</pattern>
+        <template>
+            Sure, we offer delivery services in Dubai. Please provide your delivery address and we'll arrange for your meals to be delivered at your convenience.
+        </template>
+    </category>
+
+    <category>
+        <pattern>I WOULD LIKE TO KNOW MORE ABOUT YOUR INGREDIENTS</pattern>
+        <template>
+            All of our ingredients are fresh and sourced from local suppliers in Dubai. We use a variety of proteins, vegetables, and whole grains to create nutritious and delicious meals. If you have any specific dietary restrictions or allergies, please let us know and we'll do our best to accommodate them.
+        </template>
+    </category>
+
+    <category>
+        <pattern>I WOULD LIKE TO KNOW YOUR NUTRITION INFORMATION</pattern>
+        <template>
+            We are happy to provide you with nutrition information for our meals. Please let us know which meal you're interested in and we'll send you the information.
+        </template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <template>
+            I'm sorry, I didn't understand your request. Could you please rephrase it or provide more information?
+        </template>
+    </category>
 </aiml>

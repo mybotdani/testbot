@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>How much are your meal plans</pattern>
+    <template>Pricing depends on the type of plan needed</template>
+  </category>
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+</aiml>
